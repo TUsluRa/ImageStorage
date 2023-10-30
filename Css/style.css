@@ -1,0 +1,117 @@
+/* Renk Paleti */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2c3e50;
+    --text-color: #ecf0f1;
+    --border-color: #e74c3c;
+    --bg-color: #34495e;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: var(--primary-color);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: var(--text-color);
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--border-color);
+}
+
+.main-content {
+    padding: 40px 0;
+}
+
+.article {
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.article h2 {
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 10px;
+}
+
+.article p {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: var(--secondary-color);
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+.button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: var(--border-color);
+}
+
+.card {
+    background-color: var(--primary-color);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.card h3 {
+    margin-top: 20px;
+}
+
+.card p {
+    margin-top: 10px;
+}
+
